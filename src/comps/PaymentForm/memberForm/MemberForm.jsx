@@ -37,7 +37,7 @@ const MemberForm = () => {
     amount: "",
     discount: "",
     method: "zaad-cash",
-    type: "memberShip",
+    type: "membership",
     expiredDate: (() => new Date().setDate(new Date().getDate() + 30))(),
   });
 
